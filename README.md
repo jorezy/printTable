@@ -23,12 +23,16 @@ Test
 ====
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mvn test or java -cp primes-multiplication-0.0.1-fat-tests.jar
+mvn test 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+or
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+java -cp primes-multiplication-0.0.1-fat-tests.jar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Support features:
-
-under src/test/resources/features directory
 
 -   genearatePrimes.feature
 
@@ -39,14 +43,14 @@ under src/test/resources/features directory
 Package
 =======
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 mvn clean compile assembly:single
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  
 
 References
 ==========
-
-
 
 >   [The n-th prime asymptotically\#page8](https://arxiv.org/pdf/1203.5413.pdf)
 
@@ -54,7 +58,7 @@ References
 >   R.H.\#page](https://arxiv.org/pdf/1002.0442.pdf)7
 
 >   [Sharper bounds for ψ, θ, π,
->   pk\#page4](http://public.gettysburg.edu/\~dglass/spring04/chebyshev.pdf)
+>   pk\#page4](http://public.gettysburg.edu/~dglass/spring04/chebyshev.pdf)
 
 >   [STUDIES OF ENTROPY MEASURES CONCERNING THE GAPS OF PRIME NUMBERS
 >   page8](https://arxiv.org/pdf/1606.08293.pdf)
