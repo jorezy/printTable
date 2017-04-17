@@ -29,7 +29,7 @@ java -cp primes-multiplication-0.0.1-jar-with-dependencies.jar
 
 ### Run Example:
 
-![](src\main\resources\screenshot.png)
+![](src/main/resources/screenshot.png)
 
  
 
@@ -58,7 +58,7 @@ Support features:
 
 ### Test Results
 
-![](src\main\resources\test.png)
+![](src/main/resources/test.png)
 
  
 
