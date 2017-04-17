@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="productMatrix" class="com.challenge.primes.multiplicaiton.ProductMatrix">	
+	</bean>
+	
+	<bean id="sieveEratosthenes" class="com.challenge.primes.multiplicaiton.SieveEratosthenes"></bean>
+
+	<bean id="aks" class="com.challenge.primes.multiplicaiton.AKS">
+		<constructor-arg type = "BigInteger" value = "100000000"/>
+	</bean>
+
+</beans>
