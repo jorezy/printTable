@@ -1,7 +1,7 @@
 Prime Multiplication Table Tool
 ===============================
 
-This tool can print the first N prime number efficiently
+This tool can print the first N prime numbers efficiently
 
 ### Usage：
 
